@@ -2,32 +2,53 @@ body {
     background-color: #fcf8cb;
     color: black;
 }
+
 .title {
     text-align: center;
     font-family: 'Newsreader', serif;
 }
+
 .fontTexto {
     font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
     color: black;
 }
+
 h2 {
     font-size: 1.6em;
     color: rgb(110, 148, 184);
 }
+
 .center {
     text-align: center;
 }
+
 #MinhaFoto{
    border-radius: 10%;
-   text-align: center;
-   display: block;
-   margin: 0 auto;
+   float: left;
+   width: 500px;
+   padding: 4px;
+   background-color: rgb(110, 148, 184);
+   margin-left: 300px;
 }
+
+.Descrição {
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#Descrição {
+    font-size: 20px;
+}
+
+
 .container {
     text-align: center;
 }
+
 .button {
     text-decoration: none;
     color: black;
@@ -35,8 +56,19 @@ h2 {
     padding: 10px 15px;
     border-radius: 4px;
 }
+
 ul {
     margin: 0 auto;
     display: inline-block;
     text-align: left;
 }
+
+.image-container {
+    height: 400px;
+    padding: 20px;
+    margin-left: 100px;
+    
+}
+
+
+
