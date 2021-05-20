@@ -1,74 +1,62 @@
 body {
     background-color: #fcf8cb;
     color: black;
-}
-
-.title {
+  }
+  .title {
     text-align: center;
     font-family: 'Newsreader', serif;
-}
-
-.fontTexto {
+  }
+  .fontTexto {
     font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
+  }
+  h1 {
     color: black;
-}
-
-h2 {
+  }
+  h2 {
     font-size: 1.6em;
     color: rgb(110, 148, 184);
-}
-
-.center {
+  }
+  .center {
     text-align: center;
-}
-
-#MinhaFoto{
+  }
+  #MinhaFoto{
    border-radius: 10%;
-   float: left;
-   width: 500px;
-   padding: 4px;
-   background-color: rgb(110, 148, 184);
-   margin-left: 300px;
-}
-
-.Descrição {
-    margin-right: 400px;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+  }
+  .container {
     text-align: center;
-    margin-top: 70px;
-}
-
-#Descrição {
-    font-size: 20px;
-}
-
-
-.container {
-    text-align: center;
-}
-
-.button {
+  }
+  .button {
     text-decoration: none;
     color: black;
     background-color: rgb(125, 169, 209);
     padding: 10px 15px;
     border-radius: 4px;
-}
-
-ul {
+  }
+  ul {
     margin: 0 auto;
     display: inline-block;
     text-align: left;
-}
-
-.image-container {
-    height: 400px;
-    padding: 20px;
-    margin-left: 100px;
-    
-}
-
-
-
+  }
+  
+  #github {
+  width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  #instagram {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  #linkedin {
+    width: 100px;
+    margin: 20px;
+  }
+  
+  .no-style li {
+    list-style: none;
+    display: inline-block;
+  }
